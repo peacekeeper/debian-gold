@@ -1,0 +1,28 @@
+Source: gold
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Sabadello <markus@projectdanube.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go,
+               golang-github-elazarl-goproxy-dev,
+               golang-github-gorilla-securecookie-dev,
+               golang-github-linkeddata-gojsonld-dev,
+               golang-github-presbrey-goraptor-dev,
+               golang-github-presbrey-magicmime-dev,
+               golang-github-stretchr-testify-dev,
+               golang-golang-x-net-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/linkeddata/gold
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/gold.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/gold.git
+XS-Go-Import-Path: github.com/linkeddata/gold
+
+Package: gold
+Architecture: any
+Built-Using: ${misc:Built-Using}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: 
+ TODO: long description
