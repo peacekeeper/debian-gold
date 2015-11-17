@@ -20,7 +20,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-go/packages/gold.git
 XS-Go-Import-Path: github.com/linkeddata/gold
 
 Package: gold
-Architecture: any
+Architecture: all
 Built-Using: ${misc:Built-Using}
 Depends: ${shlibs:Depends},
          ${misc:Depends}
