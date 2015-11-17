@@ -25,4 +25,4 @@ Built-Using: ${misc:Built-Using}
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Description: 
- TODO: long description
+ Linked Data server for Go.
