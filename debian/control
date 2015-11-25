@@ -20,9 +20,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-go/packages/gold.git
 XS-Go-Import-Path: github.com/linkeddata/gold
 
 Package: gold
-Architecture: all
+Architecture: any
 Built-Using: ${misc:Built-Using}
 Depends: ${shlibs:Depends},
          ${misc:Depends}
-Description: 
+Description: Linked Data server for Go.
  Linked Data server for Go.
