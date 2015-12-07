@@ -25,4 +25,5 @@ Built-Using: ${misc:Built-Using}
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Description: Linked Data server for Go.
- Linked Data server for Go.
+ Linked Data server for Go. Linked Data is about using the Web
+ to connect related data that wasn't previously linked.
